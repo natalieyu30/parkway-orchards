@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>FAIRVIEW VALLEY ORCHARDS</title>
+  </head>
+  <body id="home">
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="#home">Fairview Valley Orchards</a></h1>
+        <ul class="nav">
+          <li><a class="menu-link" href="#home">Home</a></li>
+          <li><a class="menu-link" href="#about">About Us</a></li>
+          <li><a class="menu-link" href="#pick-your-own">Pick Your Own</a></li>
+          <li><a class="menu-link" href="#store">Store</a></li>
+          <li><a class="menu-link" href="#faq">FAQ</a></li>
+          <li><a class="menu-link" href="#gallery">Gallery</a></li>
+          <li><a class="menu-link" href="#contact">Contact</a></li>
+        </ul>
+        <span class="menu"><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </nav>
+
+    <!-- showcase -->
+    <section class="showcase section">
+      <div class="container">
+        <div class="showcase-info">
+          <h1>FAIRVIEW VALLEY ORCHARDS</h1>
+          <br />
+          <p>
+            Enjoy your time and make a memorable experience at FAIRVIEW VALLEY
+            ORCHARDS in a beautiful Niagara-On-The-Lake.
+          </p>
+          <p>
+            Pick your own cherries, peaches and other delicious fruits ripe
+            right from the trees.
+          </p>
+          <a href="#about" class="btn">Read More</a>
+          <br />
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="title-info">
+          <h2>About Us</h2>
+        </div>
+        <div class="about-info">
+          <h3>Growing Farm Food & Activities Since 1970</h3>
+          <p>
+            At <span class="point">FAIRVIEW VALLEY ORCHARDS</span>, you get
+            fresh, local produce grown right here in Niagara-On-The-Lake. And we
+            don't just grow it—we use the ingredients in our bakery and café to
+            make the most delicious farm food you've ever tasted. Everything we
+            grow is available to you right here on the farm. Because our family
+            has been running this farm for over 40 years, we want your whole
+            family to enjoy their time here. There is something for everyone and
+            we hope you'll make your own happy memories and traditions. During
+            the picking season we offer pick your own cherries, peaches, plums,
+            nectarines, apples and grapes. Bite into one of these freshly picked
+            fruits and the amazing sweetness and juiciness will not soon leave
+            your memories.
+            <br />
+            <br />
+            Stop by for a visit to pick up some fresh fruits from our very own
+            farm or some of our fantastic home baked pies.
+          </p>
+        </div>
+        <div class="about-imgs">
+          <img src="./img/store/about-us1.jpeg" alt="" />
+          <img src="./img/store/about-us2.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- pick your own -->
+    <section id="pick-your-own" class="section">
+      <div class="container">
+        <div class="title-info">
+          <h2>Pick Your Own</h2>
+          <p>
+            All the fruits in
+            <span class="point">FAIRVIEW VALLEY ORCHARDS</span>, you can pick
+            your own fruit throughout the year.
+            <br />
+            Exact ripening times vary depending on the weather, please contact
+            us or check the website the updated information before your visit.
+          </p>
+          <br />
+          <span>(289) 000-0000</span>
+        </div>
+        <div class="pick-grid">
+          <div class="grid-item">
+            <div class="pick-img">
+              <img src="./img/peach/peach2.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Peaches</h3>
+              <p>Our passion.</p>
+              <p>Yello or white with sweet and full flavour.</p>
+              <p>Peaches will be ripe in Mid August.</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="pick-img">
+              <img src="./img/cherry/cherry1.jpg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Cherries</h3>
+              <p>Sweet cherries will be ripe in Early July.</p>
+              <p>Sour cherries will be ripe in Mid July.</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="pick-img">
+              <img src="./img/apple/apple2.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Apples</h3>
+              <p>
+                Crisp and juicy. Eat as fresh or baking. Availble from
+                mid-September to mid-October.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- store -->
+    <section id="store" class="section">
+      <div class="container">
+        <div class="title-info">
+          <h2>Our Product</h2>
+          <p></p>
+        </div>
+        <div class="store-grid">
+          <div class="grid-item store-item">
+            <div class="store-img">
+              <img src="./img/peach/peach4.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Fresh Fruit!</h3>
+              <p>Take our delicious juicy fresh fruits!</p>
+            </div>
+          </div>
+          <div class="grid-item store-item">
+            <div class="store-img">
+              <img src="./img/store/jars.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Famous Preserves</h3>
+              <p>
+                Hand crafted in small batches capturing that just picked taste.
+              </p>
+            </div>
+          </div>
+          <div class="grid-item store-item">
+            <div class="store-img">
+              <img src="./img/store/apple-pie.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Baked Goods</h3>
+              <p>
+                Try our baked goods. Our signiture Peach Pies are the talk of
+                the town. Made fresh everyday.
+              </p>
+            </div>
+          </div>
+          <div class="grid-item store-item">
+            <div class="store-img">
+              <img src="./img/store/icecream.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Ice Cream</h3>
+              <p>
+                Our old fashioned icecream is deleious and refreshing. Taste the
+                way icecream is supposed to be.
+              </p>
+            </div>
+          </div>
+          <div class="grid-item store-item">
+            <div class="store-img">
+              <img src="./img/store/apple-cider2.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Refreshing Apple Cider</h3>
+              <p>
+                Our own blend of apples make a refreshing cider available all
+                season.
+              </p>
+            </div>
+          </div>
+          <div class="grid-item store-item">
+            <div class="store-img">
+              <img src="./img/store/coffee.jpeg" alt="" />
+            </div>
+            <div class="grid-info">
+              <h3>Orchards Cafe</h3>
+              <p>
+                The best place to sit and relax and grab a cup of fresh coffee.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="title-info">
+          <h2>FAQ</h2>
+          <p></p>
+        </div>
+        <div class="faq-info">
+          <div class="faq-card show-card">
+            <div class="question">
+              <h3>When are you open?</h3>
+            </div>
+            <div class="answer">
+              <p>
+                We are open EVERYDAY, including holidays, from June 15th to
+                October 31st . See our daily hours and directions to our farm
+                <a href="#contact">here</a> . Keep in mind that there will be
+                days when the farm is closed or closing early depending on the
+                weather or the number of visitors. Please check the picking page
+                frequently for the status of the farm before planning any trips.
+              </p>
+            </div>
+            <div class="faq-icons">
+              <i class="fas fa-plus faq-show"> </i>
+              <i class="fas fa-minus faq-hide"></i>
+            </div>
+          </div>
+          <div class="faq-card">
+            <div class="question">
+              <h3>Can I bring my dog?</h3>
+            </div>
+            <div class="answer">
+              We know that your furry friends are part of the family and they
+              are welcome in the outdoor areas of our farm, as long as they are
+              friendly and on a leash. In accordance with health regulations, no
+              animals (except service dogs) are permitted in the market or on
+              the patio. We have some picnic tables away from the main Café
+              Patio, where guests are welcome to sit with their pets.
+            </div>
+            <div class="faq-icons">
+              <i class="fas fa-plus faq-show"></i>
+              <i class="fas fa-minus faq-hide"></i>
+            </div>
+          </div>
+          <div class="faq-card">
+            <div class="question">
+              <h3>What produce is in season now?</h3>
+            </div>
+            <div class="answer">
+              <p>
+                Please see our <a href="#pick-your-own">picking page</a> for a
+                list of what is being freshly picked. We update this list every
+                single day!
+              </p>
+            </div>
+            <div class="faq-icons">
+              <i class="fas fa-plus faq-show"></i>
+              <i class="fas fa-minus faq-hide"></i>
+            </div>
+          </div>
+          <div class="faq-card">
+            <div class="question">
+              <h3>Are you GMO free?</h3>
+            </div>
+            <div class="answer">
+              <p>
+                Yes, all the produce grown on our farm is GMO free. Generally,
+                only large-scale crops have GMO seed options. GMO seeds are not
+                practical for small scale farmers like us. There is so much
+                false information about GMOs. Whenever you can, visit the farm
+                for yourself and talk to the farmer. When you do this, you are
+                making an educated decision about how you will spend your food
+                dollars, and this makes a huge difference to protect our food
+                system and our planet.
+              </p>
+            </div>
+            <div class="faq-icons">
+              <i class="fas fa-plus faq-show"></i>
+              <i class="fas fa-minus faq-hide"></i>
+            </div>
+          </div>
+          <div class="faq-card">
+            <div class="question">
+              <h3>How ripe are our peaches?</h3>
+            </div>
+            <div class="answer">
+              <p>
+                Because we sell directly off the farm, we have the advantage to
+                let our peaches ripen on the trees for as long as possible.
+                Peaches that are grown for shipping cross-country have to be
+                picked early while they are still very green. That being said,
+                we don’t want to let our peaches ripen to the point that they
+                are soft while they are still on the trees. We sell them at the
+                “firm-ripe” stage, so you can get them home and spread them out
+                gently for the last few days where they can ripen in peace. From
+                the time of purchase, expect 2-3 days before they are ready to
+                eat, and 5-7 days before they are fully ripened and ready to
+                can.
+              </p>
+            </div>
+            <div class="faq-icons">
+              <i class="fas fa-plus faq-show"></i>
+              <i class="fas fa-minus faq-hide"></i>
+            </div>
+          </div>
+          <!-- <div class="faq-card">
+            <div class="question"></div>
+            <div class="answer"></div>
+            <div class="faq-icons">
+              <i class="fas fa-plus faq-show"></i>
+              <i class="fas fa-minus faq-hide"></i>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="title-info">
+          <h2>Gallery</h2>
+          <p>
+            Freshly picked fruits from our very own farm in beautiful Niagara on
+            the Lake, packaged for your convenience.
+            <br />
+            There is nothing like a tree ripened fruit picked at the perfect
+            time.
+            <br />
+            Bite into one of these freshly picked fruits and the amazing
+            sweetness and juiciness will not soon leave your memories. <br />
+            During the picking season we offer pick your own cherries, peaches,
+            plums, nectarines, apples and grapes.
+          </p>
+        </div>
+        <div class="gallery-img">
+          <!-- <img src="./img/peach/peach3.jpeg" alt="" /> -->
+          <div>
+            <img class="modal-open" src="./img/peach/peach4.jpeg" alt="" />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img class="modal-img" src="./img/peach/peach4.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img class="modal-open" src="./img/peach/peach6.jpeg" alt="" />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img class="modal-img" src="./img/peach/peach6.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="modal-open" src="./img/cherry/cherry1.jpg" alt="" />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img class="modal-img" src="./img/cherry/cherry1.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="modal-open" src="./img/peach/peach1.jpeg" alt="" />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img class="modal-img" src="./img/peach/peach1.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="modal-open" src="./img/peach/peach2.jpeg" alt="" />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img class="modal-img" src="./img/peach/peach2.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="modal-open" src="./img/peach/peach5.jpeg" alt="" />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img class="modal-img" src="./img/peach/peach5.jpeg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              class="modal-open"
+              src="./img/cherry/cherry-blosom.jpeg"
+              alt=""
+            />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img
+                  class="modal-img"
+                  src="./img/cherry/cherry-blosom.jpeg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              class="modal-open"
+              src="./img/cherry/cherrys-parkway.jpg"
+              alt=""
+            />
+            <div class="modal" id="my-modal">
+              <div class="modal-content">
+                <i class="fas fa-times modal-close"></i>
+                <img
+                  class="modal-img"
+                  src="./img/cherry/cherrys-parkway.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="title-info">
+          <h2>Contact</h2>
+          <div class="contact-wrap">
+            <div class="map" id="map"></div>
+            <div class="contact-info">
+              <div class="contact-flex">
+                <h4>Address</h4>
+                <p class="flex-5">
+                  1000 Fairview valley, Niagara-on-the-Lake, Ontario, Canada
+                </p>
+              </div>
+              <div class="contact-flex">
+                <h4>Contact #</h4>
+                <p class="flex-5">(289) 000-0000</p>
+              </div>
+              <div class="contact-flex">
+                <h4>Email</h4>
+                <p class="flex-5">fairwayvalley@fairwayvalley.com</p>
+              </div>
+              <div class="contact-flex">
+                <h4>Hours</h4>
+                <div class="flex-5">
+                  <p>
+                    11am - 6pm (weather permitting)
+                    <br />
+                    7 Days a Week <br />
+                    From June to End of October
+                  </p>
+                  <small>
+                    ( Depending on the weather and the number of visitors there
+                    will be days when the farm is closed or closing early.
+                    <br />
+                    Please check the picking page frequently or contact us for
+                    the status of the farm before planning any trips. )
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map"></div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>FAIRVIEW VALLEY ORCHARDS</h2>
+          <a target="_blank" href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a target="_blank" href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a target="_blank" href="http://instagram.com">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <!-- <h3>Info</h3> -->
+          <ul>
+            <li><a href="#store">All Products</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="address">
+            1000 Fairview valley,
+            <br />
+            Niagara-on-the-Lake, ON, <br />
+            Canada
+          </p>
+          <p class="phone">(289) 000-0000</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/config.js"></script>
+    <script>
+      // mapboxgl.accessToken =
+      //   "pk.eyJ1IjoibmF0ZGV2IiwiYSI6ImNrcnNpcGl6NzBrODYyb3BmaDFsdTdpOGgifQ.LHz3id6oPKtEOs9L_CGasA";
+      mapboxgl.accessToken = config.apiKey;
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [-79.07, 43.25], // starting position [lng, lat]
+        zoom: 10,
+      });
+      // Set marker options.
+      const marker = new mapboxgl.Marker({
+        color: "crimson",
+        draggable: true,
+      })
+        .setLngLat([-79.075, 43.25])
+        .addTo(map);
+      const popup = new mapboxgl.Popup({ closeOnClick: false, anchor: "left" })
+        .setLngLat([-79.07, 43.25])
+        .setHTML("<h4>Fairview Valley Orchards<h4/>")
+        .addTo(map);
+    </script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
